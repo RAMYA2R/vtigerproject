@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="genericLibraries.ListenersImplementation"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="vtigerFinalScripts.CreateNewEventTest"/>
+      <class name="vtigerFinalScripts.DeleteLeadTest"/>
+      <class name="vtigerFinalScripts.CreateContactwithOrgTest"/>
+      <class name="vtigerFinalScripts.CreateLeadTest"/>
+      <class name="vtigerFinalScripts.CreateOrganizationTest"/>
+      <class name="vtigerFinalScripts.CreateAndDuplicateLeadTest"/>
+      <class name="vtigerFinalScripts.CreateContactTest"/>
+      <class name="vtigerFinalScripts.CreateOrgwithTypeAndIndustry"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
